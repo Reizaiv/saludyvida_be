@@ -7,7 +7,7 @@ import java.util.List;
 public interface ProductoService {
 
     //Producto findById(int id);
-    List<Producto> findAll();
+    List<Producto> getAllProductos();
     Producto createProducto(Producto producto);
 
 }

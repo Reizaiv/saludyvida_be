@@ -8,5 +8,5 @@ public interface CitaService {
 
     //Cita getCita(int id);
     List<Cita> getCitas();
-    Cita addCita(Cita cita);
+    Cita createCita(Cita cita);
 }
