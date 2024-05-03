@@ -14,7 +14,7 @@ public class Compra {
     @JoinColumn(name= "id_usuarios")
     private Usuario usuario;
 
-    @ManyToMany
+    @ManyToOne(optional = false)
     @JoinColumn(name= "id_producto")
     private Producto producto;
 
